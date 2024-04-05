@@ -30,7 +30,8 @@ ordered_cache_behavior_viewer_protocol_policy = "allow-all"
 
 price_class = "PriceClass_200"
 geo_restriction_type = "whitelist"
-geo_locations        = ["US", "CA", "GB", "IN"]
+geo_locations = ["FR", "DE", "IT", "ES", "GB"]
+
 
 tags = {
   Environment = "production"
