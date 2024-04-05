@@ -12,5 +12,5 @@ Serviços AWS utilizados:
 terraform init
 terraform plan -var-file="content.tfvars" -out="plan.tfplan"
 Destroy:
-terraform destroy -var-file main.tfvars
+terraform destroy -var-file content.tfvars
 ```
